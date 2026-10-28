@@ -135,3 +135,29 @@ Ortak stil eki (her promptun sonuna):
 - [ ] **Logo PNG** (şeffaf) — profil fotoğrafından, final damgası için
 - [ ] Antrenman bilgisinin güncelliği: video yayınlandığında hâlâ "Cumartesi 10:00, Sharks Arena" mı?
 - [ ] (İsteğe bağlı) Adın — 0:05'e "Ben 34." satırı eklenebilir
+
+---
+
+## 8. Gelen ses kaydına göre kesin zaman çizelgesi
+
+Dosya: `ElevenLabs_2026-10-28T16_05_17_Atakan_Arisoy_-_Podcast_pvc_sp100_s50_sb75_v4.mp3` — **22.5 sn**, ilk metin versiyonu ("Pazar sabahı yedi…").
+Ses kaydı videoda **0:02.0'da başlar** (ilk 2 sn mürekkep damlası intro). Sessizlik analiziyle ölçüldü, kesmeleri bu noktalara koy:
+
+| Video zamanı | Ses dosyasında | Satır | Görüntü |
+|---|---|---|---|
+| 0:00.0–0:02.0 | — | — | Mürekkep damlası → köpekbalığı silueti |
+| 0:02.0–0:03.2 | 0.00–1.15 | "Pazar sabahı yedi." | Boş saha, sis, saat 7 · dev: **SABAH 7** |
+| 0:03.5–0:04.5 | 1.53–2.51 | "Bütün şehir uyuyor." | Uyuyan kampüs/şehir silueti |
+| 0:05.0–0:05.4 | 2.96–3.38 | "Biz mi?" | #34 kadraja koşarak girer |
+| 0:05.8–0:06.9 | 3.79–4.84 | "Biz sahadayız." | Kaskı çıkarır, sırıtır · "Sharks antrenmanda…" etiketi |
+| 0:06.9–0:10.2 | 4.84–8.19 | "Kask, omuzluk, ter ve tek bir hedef." | 4 hızlı kesme, her kelimede bir kesme |
+| 0:10.8–0:13.8 | 8.75–11.82 | "Kocaeli'de köpekbalığı… değil mi?" | Yüzgeç kafalı takım tek tek belirir |
+| 0:14.2–0:16.6 | 12.23–14.58 | "Biz yüzmeyi değil, saldırmayı biliyoruz." | Mürekkep dolması, yüzgeç · dev: **AV** (son kelimede hit) |
+| 0:17.1–0:19.2 | 15.07–17.19 | "Takıma girmek mi istiyorsun? Kapı açık." | Çarpışma → freeze · dev: **SEN?** · CUMARTESİ 10:00 · SHARKS ARENA |
+| 0:19.2–0:19.6 | 17.19–17.60 | (boşluk) | **Tam sessizlik** — müzik de kesilir |
+| 0:19.6–0:21.7 | 17.60–19.73 | "Ama söz vermiyorum. Kolay olmayacak." | #34 kameraya parmağını uzatır |
+| 0:22.2–0:24.5 | 20.18–22.52 | "Kocaeli Sharks. Sahada görüşürüz." | Takım pozu, logo damgası "Kocaeli Sharks"ta basılır |
+| 0:24.5–0:28.0 | — | — | "HU!" + uzun düdük · **SHARKS WANT YOU** · @kocaelisharks |
+| 0:28.0–0:30.0 | — | — | Logo sabit, fade-out |
+
+> Not: Bu kayıt ilk metinle üretildiği için açılış "Pazar sabahı yedi" diyor, ama antrenman Cumartesi 10:00. İstersen sadece ilk satırı **"Cumartesi sabahı. Bütün kampüs uyuyor."** olarak yeniden üret; süre neredeyse aynı kalır, çizelge değişmez.
